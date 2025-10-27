@@ -5222,12 +5222,6 @@
       "ap2ID": "f6bc2f48-c5ed-4fe0-91fb-3e6f2d1a6647"
     },
     {
-      "ap1Name": "geometry",
-      "ap2Name": "geometry2",
-      "ap1ID": "66ec58d6-6682-45e3-9468-3092b55d8c31",
-      "ap2ID": "7e06c42f-4b87-46b5-8172-6ad060ec6137"
-    },
-    {
       "ap1Name": "result",
       "ap2Name": "distX",
       "ap1ID": "e067da65-e2dc-4260-940f-e797bc35017f",

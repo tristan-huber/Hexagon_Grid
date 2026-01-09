@@ -24,28 +24,34 @@
       "atomType": "Output",
       "x": 0.98,
       "y": 0.5,
-      "uniqueID": "ab7a4614-b94e-4bc1-a229-55b4098994fe"
+      "uniqueID": "ab7a4614-b94e-4bc1-a229-55b4098994fe",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
     },
     {
       "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.15384615384615385,
+      "x": 0.05499999999999999,
+      "y": 0.3333333333333333,
       "uniqueID": "63b69953-f87e-4ce9-8bad-e6218871d2ed",
       "name": "Hexagon Dameter",
       "type": "number"
     },
     {
       "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.23076923076923078,
+      "x": 0.05499999999999999,
+      "y": 0.5333333333333333,
       "uniqueID": "ae2e8a7d-3c13-43d3-8b02-42ef2ca5185a",
       "name": "X Length",
       "type": "number"
     },
     {
       "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.3076923076923077,
+      "x": 0.05499999999999999,
+      "y": 0.7333333333333334,
       "uniqueID": "2a5fd728-5d3a-4c04-97e3-9f0cab157877",
       "name": "Y Length",
       "type": "number"
@@ -134,6 +140,10 @@
       "y": 0.5543175487465182,
       "uniqueID": "5d65750b-0b59-4449-b127-79e0fd93df8b",
       "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
         {
           "name": "xDist",
           "ioValue": 15
@@ -245,6 +255,10 @@
       "uniqueID": "447aa44e-26a3-497a-a335-bed1f5b1a9c5",
       "ioValues": [
         {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
           "name": "xDist",
           "ioValue": -150
         },
@@ -262,7 +276,17 @@
       "atomType": "Intersection",
       "x": 0.8293650793650793,
       "y": 0.8133704735376045,
-      "uniqueID": "7e06c42f-4b87-46b5-8172-6ad060ec6137"
+      "uniqueID": "7e06c42f-4b87-46b5-8172-6ad060ec6137",
+      "ioValues": [
+        {
+          "name": "geometry1",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "geometry2",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
     },
     {
       "atomType": "GitHubMolecule",
@@ -274,6 +298,10 @@
         {
           "name": "Number",
           "ioValue": 11
+        },
+        {
+          "name": "Geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
         },
         {
           "name": "distX",
@@ -294,7 +322,13 @@
           "atomType": "Output",
           "x": 0.98,
           "y": 0.5,
-          "uniqueID": "861e6227-8832-42a6-805a-a91a5f8cb759"
+          "uniqueID": "861e6227-8832-42a6-805a-a91a5f8cb759",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
         },
         {
           "atomType": "Rectangle",
@@ -314,16 +348,16 @@
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.15384615384615385,
+          "x": 0.05499999999999999,
+          "y": 0.3333333333333333,
           "uniqueID": "6b6b60c1-cb4b-45dd-9416-bfd8b540a4da",
           "name": "Number",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.23076923076923078,
+          "x": 0.05499999999999999,
+          "y": 0.5333333333333333,
           "uniqueID": "d7272c9f-a1fd-461d-a8d6-3d719cfdeb98",
           "name": "Geometry",
           "type": "geometry"
@@ -349,6 +383,10 @@
             {
               "name": "distZ",
               "ioValue": 0
+            },
+            {
+              "name": "Shape",
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
@@ -356,24 +394,24 @@
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.3076923076923077,
+          "x": 0.05499999999999999,
+          "y": 0.7333333333333334,
           "uniqueID": "41871188-1ae1-4db5-b837-529b34fd4550",
           "name": "distX",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.38461538461538464,
+          "x": 0.05499999999999999,
+          "y": 0.9333333333333333,
           "uniqueID": "33ea11ea-4e00-4f91-9213-e416d4ca518f",
           "name": "distY",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.46153846153846156,
+          "x": 0.05499999999999999,
+          "y": 0.95,
           "uniqueID": "1eb7002d-dc9e-4012-a349-b485781bce7b",
           "name": "distZ",
           "type": "number"
@@ -384,6 +422,12 @@
           "y": 0.2787878787878788,
           "uniqueID": "43cfdfad-ed2d-400e-a740-aa47e1db83d3",
           "name": "README",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
           "readMeText": "Readme text here",
           "global": true
         },
@@ -408,6 +452,10 @@
             {
               "name": "distZ",
               "ioValue": 0
+            },
+            {
+              "name": "Shape",
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
@@ -419,6 +467,10 @@
           "y": 0.396969696969697,
           "uniqueID": "f8d9bd9e-a023-434d-b1ed-657b250f89b5",
           "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
             {
               "name": "height",
               "ioValue": 10
@@ -513,6 +565,10 @@
           "ioValue": 7
         },
         {
+          "name": "Geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
           "name": "distX",
           "ioValue": 0
         },
@@ -531,7 +587,13 @@
           "atomType": "Output",
           "x": 0.98,
           "y": 0.5,
-          "uniqueID": "683c2fe1-f9b8-424a-8b71-eb4fafce937f"
+          "uniqueID": "683c2fe1-f9b8-424a-8b71-eb4fafce937f",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
         },
         {
           "atomType": "Rectangle",
@@ -551,16 +613,16 @@
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.15384615384615385,
+          "x": 0.05499999999999999,
+          "y": 0.3333333333333333,
           "uniqueID": "76289285-179f-4c46-b087-c394583822e1",
           "name": "Number",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.23076923076923078,
+          "x": 0.05499999999999999,
+          "y": 0.5333333333333333,
           "uniqueID": "1a04aa99-67e0-4fd9-91d8-ef7ccbc94f75",
           "name": "Geometry",
           "type": "geometry"
@@ -586,6 +648,10 @@
             {
               "name": "distZ",
               "ioValue": 0
+            },
+            {
+              "name": "Shape",
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
@@ -593,24 +659,24 @@
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.3076923076923077,
+          "x": 0.05499999999999999,
+          "y": 0.7333333333333334,
           "uniqueID": "4033d2e1-2fff-4e16-9eea-43c1d0b9480e",
           "name": "distX",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.38461538461538464,
+          "x": 0.05499999999999999,
+          "y": 0.9333333333333333,
           "uniqueID": "5f5b7080-7b7f-49cd-86d8-de4003cfc1fd",
           "name": "distY",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.46153846153846156,
+          "x": 0.05499999999999999,
+          "y": 0.95,
           "uniqueID": "0aedf320-5bd6-40f2-a9b4-b0635b155eba",
           "name": "distZ",
           "type": "number"
@@ -621,6 +687,12 @@
           "y": 0.2787878787878788,
           "uniqueID": "01684a35-dcf6-45ef-90d2-409d1c44e9aa",
           "name": "README",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
           "readMeText": "Readme text here",
           "global": true
         },
@@ -645,6 +717,10 @@
             {
               "name": "distZ",
               "ioValue": 0
+            },
+            {
+              "name": "Shape",
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
@@ -656,6 +732,10 @@
           "y": 0.396969696969697,
           "uniqueID": "d1e4cabd-3585-4071-855a-723e44c58dc2",
           "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
             {
               "name": "height",
               "ioValue": 10
@@ -750,6 +830,10 @@
           "ioValue": 7
         },
         {
+          "name": "Geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
           "name": "distX",
           "ioValue": 0
         },
@@ -768,7 +852,13 @@
           "atomType": "Output",
           "x": 0.98,
           "y": 0.5,
-          "uniqueID": "d16071f4-3216-486b-9ed1-f973b761c503"
+          "uniqueID": "d16071f4-3216-486b-9ed1-f973b761c503",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
         },
         {
           "atomType": "Rectangle",
@@ -788,16 +878,16 @@
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.15384615384615385,
+          "x": 0.05499999999999999,
+          "y": 0.3333333333333333,
           "uniqueID": "51db1a30-d8d9-4890-8ab5-3b6647585512",
           "name": "Number",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.23076923076923078,
+          "x": 0.05499999999999999,
+          "y": 0.5333333333333333,
           "uniqueID": "01e91319-9d66-4456-9dcd-48804af7ae1a",
           "name": "Geometry",
           "type": "geometry"
@@ -823,6 +913,10 @@
             {
               "name": "distZ",
               "ioValue": 0
+            },
+            {
+              "name": "Shape",
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
@@ -830,24 +924,24 @@
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.3076923076923077,
+          "x": 0.05499999999999999,
+          "y": 0.7333333333333334,
           "uniqueID": "044b6087-2689-43e0-bf2c-6e71a950b9e1",
           "name": "distX",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.38461538461538464,
+          "x": 0.05499999999999999,
+          "y": 0.9333333333333333,
           "uniqueID": "44e2b8c1-dfdd-4fc5-b03b-7d7ead4c7cf4",
           "name": "distY",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.46153846153846156,
+          "x": 0.05499999999999999,
+          "y": 0.95,
           "uniqueID": "6b5026bb-b961-4f3c-83b1-17aba006fae9",
           "name": "distZ",
           "type": "number"
@@ -858,6 +952,12 @@
           "y": 0.2787878787878788,
           "uniqueID": "0908e93d-5eb8-4c69-a7f1-c29c8d63fdc9",
           "name": "README",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
           "readMeText": "Readme text here",
           "global": true
         },
@@ -882,6 +982,10 @@
             {
               "name": "distZ",
               "ioValue": 0
+            },
+            {
+              "name": "Shape",
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ],
           "codeVersion": 1,
@@ -893,6 +997,10 @@
           "y": 0.396969696969697,
           "uniqueID": "c46e3987-d878-4820-9bc4-b0d646ec0885",
           "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
             {
               "name": "height",
               "ioValue": 10
